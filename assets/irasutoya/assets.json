@@ -1,0 +1,194 @@
+{
+  "rice": {
+    "src": "./assets/irasutoya/rice.png"
+  },
+  "wheat": {
+    "src": "./assets/irasutoya/wheat.png"
+  },
+  "corn": {
+    "src": "./assets/irasutoya/corn.png"
+  },
+  "sugarcane": {
+    "src": "./assets/irasutoya/sugarcane.png"
+  },
+  "rapeseed": {
+    "src": "./assets/irasutoya/rapeseed.png"
+  },
+  "potato": {
+    "src": "./assets/irasutoya/potato.png"
+  },
+  "peanut": {
+    "src": "./assets/irasutoya/peanut.png"
+  },
+  "sweet-potato": {
+    "src": "./assets/irasutoya/sweet-potato.png"
+  },
+  "beet": {
+    "src": "./assets/irasutoya/beet.png"
+  },
+  "sprout": {
+    "src": "./assets/irasutoya/sprout.png"
+  },
+  "seedling": {
+    "src": "./assets/irasutoya/seedling.png"
+  },
+  "hoe-farmer": {
+    "src": "./assets/irasutoya/hoe-farmer.png"
+  },
+  "watering-farmer": {
+    "src": "./assets/irasutoya/watering-farmer.png"
+  },
+  "eating": {
+    "src": "./assets/irasutoya/eating.png"
+  },
+  "exercise": {
+    "src": "./assets/irasutoya/exercise.png"
+  },
+  "sky-day": {
+    "src": "./assets/irasutoya/sky-day.png"
+  },
+  "sky-rain": {
+    "src": "./assets/irasutoya/sky-rain.png"
+  },
+  "cloud": {
+    "src": "./assets/irasutoya/cloud.png"
+  },
+  "sun": {
+    "src": "./assets/irasutoya/sun.png"
+  },
+  "landscape": {
+    "src": "./assets/irasutoya/landscape.png"
+  },
+  "grassland": {
+    "src": "./assets/irasutoya/grassland.png"
+  },
+  "house": {
+    "src": "./assets/irasutoya/house.png"
+  },
+  "drought": {
+    "src": "./assets/irasutoya/drought.png"
+  },
+  "locust": {
+    "src": "./assets/irasutoya/locust.png"
+  },
+  "sky-snow": {
+    "src": "./assets/irasutoya/sky-snow.png"
+  },
+  "blizzard": {
+    "src": "./assets/irasutoya/blizzard.png"
+  },
+  "old-farmer": {
+    "src": "./assets/irasutoya/old-farmer.png"
+  },
+  "tree-sprout": {
+    "src": "./assets/irasutoya/tree-sprout.png"
+  },
+  "sapling": {
+    "src": "./assets/irasutoya/sapling.png"
+  },
+  "tree": {
+    "src": "./assets/irasutoya/tree.png"
+  },
+  "fruit-tree": {
+    "src": "./assets/irasutoya/fruit-tree.png"
+  },
+  "study": {
+    "src": "./assets/irasutoya/study.png"
+  },
+  "shop": {
+    "src": "./assets/irasutoya/shop.png"
+  },
+  "watering-hose": {
+    "src": "./assets/irasutoya/watering-hose.png"
+  },
+  "market": {
+    "src": "./assets/irasutoya/market.png"
+  },
+  "young-corn": {
+    "src": "./assets/irasutoya/young-corn.png"
+  },
+  "sun-yellow": {
+    "src": "./assets/irasutoya/sun-yellow.png"
+  },
+  "thief": {
+    "src": "./assets/irasutoya/thief.png"
+  },
+  "rice-pest": {
+    "src": "./assets/irasutoya/rice-pest.png"
+  },
+  "corn-farmer": {
+    "src": "./assets/irasutoya/corn-farmer.png"
+  },
+  "field": {
+    "src": "./assets/irasutoya/field.png"
+  },
+  "coin": {
+    "src": "./assets/irasutoya/coin.png"
+  },
+  "fertilizer": {
+    "src": "./assets/irasutoya/fertilizer.png"
+  },
+  "fruit": {
+    "src": "./assets/irasutoya/fruit.png"
+  },
+  "cow": {
+    "src": "./assets/irasutoya/cow.png"
+  },
+  "watering-can": {
+    "src": "./assets/irasutoya/watering-can.png"
+  },
+  "medicine": {
+    "src": "./assets/irasutoya/medicine.png"
+  },
+  "hoe-farmer-female": {
+    "src": "./assets/irasutoya/hoe-farmer-female.png"
+  },
+  "watering-hose-female": {
+    "src": "./assets/irasutoya/watering-hose-female.png"
+  },
+  "study-female": {
+    "src": "./assets/irasutoya/study-female.png"
+  },
+  "exercise-female": {
+    "src": "./assets/irasutoya/exercise-female.png"
+  },
+  "eating-female": {
+    "src": "./assets/irasutoya/eating-female.png"
+  },
+  "avatar-man": {
+    "src": "./assets/irasutoya/avatar-man.png"
+  },
+  "avatar-woman": {
+    "src": "./assets/irasutoya/avatar-woman.png"
+  },
+  "dark-cloud": {
+    "src": "./assets/irasutoya/dark-cloud.png"
+  },
+  "avatar-cat": {
+    "src": "./assets/irasutoya/avatar-cat.png"
+  },
+  "avatar-dog": {
+    "src": "./assets/irasutoya/avatar-dog.png"
+  },
+  "avatar-chicken": {
+    "src": "./assets/irasutoya/avatar-chicken.png"
+  },
+  "avatar-seedling": {
+    "src": "./assets/irasutoya/seedling.png"
+  },
+  "moon": {
+    "src": "./assets/irasutoya/moon.png"
+  },
+  "ill-man": {
+    "src": "./assets/irasutoya/ill-man.png"
+  },
+  "ill-woman": {
+    "src": "./assets/irasutoya/ill-woman.png"
+  },
+  "rapeseed-flower": {
+    "src": "./assets/irasutoya/rapeseed-flower.png"
+  },
+  "grass-5": {
+    "src": "./assets/irasutoya/grass-5.png"
+  }
+}

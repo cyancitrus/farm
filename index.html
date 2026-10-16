@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#edf4df"><meta name="description" content="晴耕小院，一方小田，四季晴雨。">
+<title>晴耕小院</title><link rel="stylesheet" href="./style.css">
+<link rel="icon" type="image/png" href="./assets/irasutoya/seedling.png">
+</head>
+<body>
+<main id="game" class="game welcome" aria-label="晴耕小院">
+ <div id="world" class="world sunny" aria-hidden="true">
+  <img class="meadow" src="./assets/irasutoya/grassland.png" alt="">
+  <img class="mountains" src="./assets/irasutoya/landscape.png" alt="">
+  <img class="meadow dusk-bg" src="./assets/user/grassland-dusk.png" alt="">
+  <img class="mountains dusk-bg" src="./assets/user/landscape-dusk.png" alt="">
+  <div class="weather-tint"></div><img id="weather-sky" class="weather-sky" alt="">
+  <img class="cloud cloud-one" src="./assets/irasutoya/cloud.png" alt=""><img class="cloud cloud-two" src="./assets/irasutoya/cloud.png" alt="">
+  <img id="sun" class="sun" src="./assets/irasutoya/sun.png" alt="">
+  <img class="house" src="./assets/irasutoya/house.png" alt="">
+  <img class="scenery-tree tree-one" src="./assets/irasutoya/tree.png" alt=""><img class="scenery-tree tree-two" src="./assets/irasutoya/tree.png" alt="">
+  <div class="foreground"></div><div class="time-shade"></div><div class="night-stars"></div><img class="night-moon" src="./assets/irasutoya/moon.png" alt=""><img id="disaster-art" class="disaster-art" alt=""><div id="weather-particles" class="weather-particles"></div>
+ </div>
+ <header class="topbar">
+  <div class="top-left"><button id="exit" class="round-button" aria-label="退出游戏" title="退出"></button><button id="save" class="round-button" aria-label="导出存档" title="导出存档"></button><button id="rules" class="round-button rules-button" aria-label="查看规则" title="规则">?</button>
+   <div class="profile-wrap"><button id="profile-toggle" class="profile-toggle" aria-expanded="false"><span class="avatar-leaf"><img id="profile-avatar" src="./assets/irasutoya/sprout.png" alt="头像"></span><span id="profile-name">晴耕小院</span><span id="profile-status" class="status">正常</span><strong id="profile-money" class="profile-money">0 金</strong><span class="chevron"></span></button>
+    <section id="profile" class="profile hidden" aria-label="人物信息"><div class="profile-head"><strong id="full-name"></strong><button class="text-button" id="load">导入存档</button></div><div class="profile-tabs"><button data-tab="info" class="active">近况</button><button data-tab="bag">背包</button><button data-tab="achievements">成就</button></div><div id="profile-body" class="profile-body"></div></section>
+   </div>
+  </div>
+  <div id="calendar" class="calendar"><span id="calendar-year">第一年</span><strong id="calendar-month">一月</strong><span class="calendar-divider"></span><span id="weather-name">晴</span><span id="time-name" class="time-name">白天</span><div id="ap-label" class="ap-label">行动点 <b>5</b></div></div>
+  <button id="shop" class="shop-button"><img src="./assets/irasutoya/shop.png" alt=""><span>小卖部</span></button>
+ </header>
+ <div class="farm-area" id="farm-area"><div class="field-shadow"></div><div class="field-soil" id="field-soil"></div><div id="plants" class="plants"></div></div>
+ <div id="crop-sign" class="crop-sign"><div class="sign-content"><span id="crop-name">水稻</span><span id="crop-stage">成熟</span><div class="growth-track"><i id="growth-bar"></i></div></div><div class="sign-post"></div></div>
+ <div id="actor" class="actor hidden" aria-hidden="true"><img id="actor-image" alt=""><div class="watering-drops"></div></div>
+ <aside id="action-panel" class="action-panel" aria-label="农家日常"><div class="action-heading"><i></i><span>农家日常</span><i></i></div><div id="action-buttons"></div></aside>
+ <div id="activity-caption" class="activity-caption hidden" role="status"><strong id="activity-poem"></strong><span id="activity-text"></span><div class="activity-line"><i></i></div></div>
+ <div id="world-toast" class="world-toast hidden" role="status"></div>
+ <div class="corner-title">晴耕小院</div><div id="month-transition" class="month-transition hidden" aria-live="polite"><span id="transition-year"></span><strong id="transition-month"></strong></div>
+ <section id="welcome" class="welcome-screen"><div class="welcome-card"><div class="welcome-mark"><img src="./assets/irasutoya/seedling.png" alt=""></div><h1>晴耕小院</h1><div class="welcome-rule"></div><div id="entry-menu" class="entry-menu"><button id="start-new" class="primary" type="button">开始新游戏</button><button id="welcome-load" class="secondary" type="button">导入存档</button></div><form id="new-game-form" class="hidden"><div id="avatar-step" class="setup-step"><label>先选一个头像</label><div id="avatar-choices" class="avatar-choices"></div><button id="avatar-next" class="primary setup-next" type="button" disabled>下一步 →</button></div><div id="gender-step" class="setup-step hidden"><label>再选性别</label><div id="gender-choices" class="gender-choices"></div><div class="setup-nav"><button class="text-button" type="button" data-setup="avatar">返回</button><button id="gender-next" class="primary" type="button" disabled>下一步 →</button></div></div><div id="identity-step" class="setup-step hidden"><label for="player-name">给自己取一个好听的名字吧！</label><input id="player-name" maxlength="32" placeholder="请输入文本" autocomplete="nickname" required><button class="primary start-button" type="submit">开始新游戏 <span>→</span></button><button class="text-button setup-back" type="button" data-setup="gender">返回</button></div></form></div></section>
+ <div id="achievement-toast" class="achievement-toast hidden" role="status"><span>新成就</span><strong id="achievement-name"></strong></div>
+</main>
+<div id="rotate-notice"><div class="rotate-frame"></div><strong>把屏幕横过来</strong></div>
+<dialog id="modal" aria-labelledby="modal-title"></dialog>
+<script type="module" src="./app.mjs"></script>
+</body>
+</html>
